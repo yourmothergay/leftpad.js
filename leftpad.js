@@ -1,3 +1,1 @@
-module.exports = function(str, number) {
-	return " ".repeat(Math.max(0, number - str.length)) + str;
-};
+module.exports=(s,n)=>" ".repeat((m=n-s.length)>0?m:0)+str;
